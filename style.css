@@ -1,0 +1,35 @@
+.scale {
+  transition: .2s;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.scale:active {
+  transform: scale(1);
+}
+
+.bg-banner {
+  background-image: url(imgs/CalendarBanner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
